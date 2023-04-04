@@ -121,7 +121,8 @@ fn HomePage(cx: Scope) -> impl IntoView {
             .expect("Cannot connect mutation observer");
     });
 
-    // using this as a test to creates nodes directly from nodes
+    // using this as a test to creates nodes directly from codes
+    // and how it interacts with a browser controlled component with contentEditable
     #[cfg(not(feature = "ssr"))]
     set_timeout(
         move || {
