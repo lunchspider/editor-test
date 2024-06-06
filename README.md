@@ -1,1 +1,1 @@
-Testing for a creating a test repo for creating a editor in editor
+Creating a editor in rust using leptos and wasm
